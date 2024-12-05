@@ -1,6 +1,11 @@
 {
   "public": [
     {
+      "id": "Menu_Home_Products",
+      "nav_url": "index.php?page=HomeController",
+      "nav_label": "Catalogo de Productos"
+    },
+    {
       "id": "Menu_SignIn",
       "nav_url": "index.php?page=Sec_Login",
       "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión"
@@ -13,9 +18,24 @@
   ],
   "private": [
     {
-      "id":"Menu_PaymentCheckout",
-      "nav_url": "index.php?page=Checkout_Checkout",
-      "nav_label": "Carretilla de Compra"
+      "id": "Menu_products",
+      "nav_url": "index.php?page=Products_Products",
+      "nav_label":"Mantenimiento de Productos"
+     },
+    {
+      "id": "Menu_Home_Products",
+      "nav_url": "index.php?page=HomeController",
+      "nav_label": "Catalogo de Productos"
+    },
+    {
+     "id": "Menu_carrito",
+     "nav_url": "index.php?page=Carrito_CartController",
+     "nav_label":"Carrito de Compra"
+    },
+    {
+     "id": "Menu_historial",
+     "nav_url": "index.php?page=Checkout-TransaccionC",
+     "nav_label":"Historial de Transacciones"
     }
   ]
 }

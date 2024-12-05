@@ -15,7 +15,7 @@
     <script src="/{{~BASE_DIR}}/{{this}}"></script>
   {{endfor BeginScripts}}
 </head>
-<body>
+<body <link rel="stylesheet" href="/public/css/heropanel.css">>
   <header>
     <input type="checkbox" class="menu_toggle" id="menu_toggle" />
     <label for="menu_toggle" class="menu_toggle_icon" >

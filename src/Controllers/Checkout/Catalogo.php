@@ -35,8 +35,9 @@ class Catalogo extends PrivateController
      */
     public function run():void
     {
+        /*
         // code
-        $producto = \Dao\Productos::getAll();
+        //$producto = \Dao\Productos::getAll();
         $carretilla = \Dao\Carretilla::getAll(\Utilities\Security::getUserId());
 
         $carrAssoc = array();
@@ -52,6 +53,7 @@ class Catalogo extends PrivateController
             }
         }
         \Views\Renderer::render("abc", array("productos" => $producto));
+        */
     }
 }
 
